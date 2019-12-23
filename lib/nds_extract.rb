@@ -34,7 +34,10 @@ directors
 end
 
 def total_gross(source)
-  
+  total_gross = 0 
+  index = 0 
+  while index < source.size do 
+    
   # Write this implementation
   #
   # Should use methods:
